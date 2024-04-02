@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isSelected: Bool = false
     var body: some View {
-        Text("Accessible Checbox Example!")
+        Text("Accessible Checkbox Example!")
             .accessibilityAddTraits(.isHeader)
             .font(.title)
                 VStack {
